@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import jagriti.android.com.R;
-//this activity is for tab experiment 
+//this activity is for tab experiment
 public class FifthActivity extends AppCompatActivity {
 
     @Override
