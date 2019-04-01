@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AndroidProjects</string>
+    <!--for secondActivity toast message-->
+    <string name="button_label_toast">Toast</string>
+    <string name="button_label_count">Count</string>
+    <string name="count_initial_value">0</string>
+    <string name="toast_message">Hello Toast!</string>
+    <string name="text_header">Message Received</string>
+    <string name="send_btn">Send</string>
+    <!--for third activity implecit intents ..location, website and share project-->
+    <string name="edittext_uri">http://www.facebook.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Bhaktapur</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">hello </string>
+    <string name="button_share">Share This Text</string>
+    <string name="share_text_with">Share this text with: </string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+
+    <!-- for fourth activity-->
+    <string name="action_settings">Contact</string>
+    <string name="intro_text">Droid Desserts</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
+    <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
+    <string name="donut_order_message">You ordered a donut.</string>
+    <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
+    <string name="froyo_order_message">You ordered a FroYo.</string>
+    <string name="change_dessert">Change dessert</string>
+    <string name="order_label_text">Order:</string>
+    <!--for fourth order activity-->
+    <string name="enter_name_hint">Name of person</string>
+    <string name="enter_address_hint">address of person</string>
+    <string name="enter_phone_hint">phone of person</string>
+    <string name="enter_note_hint">note of person</string>
+    <string name="choose_delivery_method">Choose a delivery method:</string>
+    <string name="same_day_messenger_service">Same day messenger
+        service</string>
+    <string name="next_day_ground_delivery">Next day ground delivery</string>
+    <string name="pick_up">Pick up</string>
+    <!--for menu-->
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
+
+
+</resources>

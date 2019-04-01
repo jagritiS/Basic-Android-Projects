@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moduleTwo.FourthOrderActivity">
+
+    <TextView
+        android:id="@+id/order_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="24dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="177dp"
+        android:id =
+    "@+id/name_label"
+
+
+    android:layout_marginStart =
+
+    "24dp"
+
+    android:layout_marginLeft =
+
+    "24dp"
+
+    android:layout_marginTop =
+
+    "32dp"
+
+    android:text =
+
+    "Name"
+
+    app:layout_constraintStart_toStartOf =
+
+    "parent"
+
+    app:layout_constraintTop_toBottomOf =
+
+    "@+id/order_textview"
+
+    />
+
+    <EditText
+        android:id =
+
+    "@+id/name_text"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "8dp"
+
+    android:layout_marginLeft=
+
+    "8dp"
+
+    android:ems=
+
+    "10"
+
+    android:hint=
+
+    "@string/enter_name_hint"
+
+    android:inputType=
+
+    "textPersonName"
+
+    app:layout_constraintBaseline_toBaselineOf=
+
+    "@+id/name_label"
+
+    app:layout_constraintStart_toEndOf=
+
+    "@+id/name_label"/>
+
+    <TextView
+        android:id =
+
+    "@+id/address_label"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "24dp"
+
+    android:layout_marginLeft=
+
+    "24dp"
+
+    android:layout_marginTop=
+
+    "24dp"
+
+    android:text=
+
+    "Address"
+
+    app:layout_constraintStart_toStartOf=
+
+    "parent"
+
+    app:layout_constraintTop_toBottomOf=
+
+    "@+id/name_label" />
+
+    <EditText
+        android:id=
+
+    "@+id/address_text"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "8dp"
+
+    android:layout_marginLeft=
+
+    "8dp"
+
+    android:ems=
+
+    "10"
+
+    android:hint=
+
+    "@string/enter_address_hint"
+
+    android:inputType=
+
+    "textMultiLine"
+
+    app:layout_constraintBaseline_toBaselineOf=
+
+    "@+id/address_label"
+
+    app:layout_constraintStart_toEndOf=
+
+    "@+id/address_label" />
+
+    <TextView
+        android:id =
+
+    "@+id/phone_label"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "24dp"
+
+    android:layout_marginLeft=
+
+    "24dp"
+
+    android:layout_marginTop=
+
+    "24dp"
+
+    android:text=
+
+    "Phone"
+
+    app:layout_constraintStart_toStartOf=
+
+    "parent"
+
+    app:layout_constraintTop_toBottomOf=
+
+    "@+id/address_text"
+
+    />
+
+    <EditText
+        android:id=
+
+    "@+id/phone_text"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "8dp"
+
+    android:layout_marginLeft=
+
+    "8dp"
+
+    android:ems=
+
+    "10"
+
+    android:hint=
+
+    "@string/enter_phone_hint"
+
+    android:inputType=
+
+    "phone"
+
+    app:layout_constraintBaseline_toBaselineOf=
+
+    "@+id/phone_label"
+
+    app:layout_constraintStart_toEndOf=
+
+    "@+id/phone_label" />
+
+    <TextView
+        android:id=
+
+    "@+id/note_label"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "24dp"
+
+    android:layout_marginLeft=
+
+    "24dp"
+
+    android:layout_marginTop=
+
+    "24dp"
+
+    android:text=
+
+    "Note"
+
+    app:layout_constraintStart_toStartOf=
+
+    "parent"
+
+    app:layout_constraintTop_toBottomOf=
+
+    "@+id/phone_label"
+
+    />
+
+    <EditText
+        android:id=
+
+    "@+id/note_text"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "8dp"
+
+    android:layout_marginLeft=
+
+    "8dp"
+
+    android:ems=
+
+    "10"
+
+    android:hint=
+
+    "@string/enter_note_hint"
+
+    android:inputType=
+
+    "textCapSentences|textMultiLine"
+
+    app:layout_constraintBaseline_toBaselineOf=
+
+    "@+id/note_label"
+
+    app:layout_constraintStart_toEndOf=
+
+    "@+id/note_label" />
+
+    <TextView
+        android:id=
+
+    "@+id/delivery_label"
+
+    android:layout_width=
+
+    "wrap_content"
+
+    android:layout_height=
+
+    "wrap_content"
+
+    android:layout_marginStart=
+
+    "24dp"
+
+    android:layout_marginLeft=
+
+    "24dp"
+
+    android:layout_marginTop=
+
+    "24dp"
+
+    android:text=
+
+    "Choose a delivery method: "
+
+    android:textSize=
+
+    "18sp"
+
+    app:layout_constraintStart_toStartOf=
+
+    "parent"
+
+    app:layout_constraintTop_toBottomOf=
+
+    "@+id/note_text" />
+
+    <RadioGroup
+        android:id="@+id/radios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/delivery_label">
+        <RadioButton
+            android:id="@+id/sameday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Same day messenger service"/>
+
+        <RadioButton
+            android:id="@+id/nextday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Next day ground delivery"  />
+
+        <RadioButton
+            android:id="@+id/pickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Pick up"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="276dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radios"
+        android:onClick="fifthAct"/>
+
+
+</android.support.constraint.ConstraintLayout>

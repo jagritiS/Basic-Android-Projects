@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jagriti.android.com">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".moduleThree.FifthActivity"></activity>
+        <!-- shows arrow button to move backward -->
+        <activity
+            android:name=".moduleTwo.FourthOrderActivity"
+            android:label="Order Place"
+            android:parentActivityName=".moduleTwo.FourthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".moduleTwo.FourthActivity" />
+        </activity> <!-- end -->
+        <activity
+            android:name=".moduleTwo.FourthActivity"
+            android:label="@string/title_activity_fourth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".moduleOne.ThirdActivity" />
+        <activity android:name=".moduleOne.SecondActivity" />
+        <activity android:name=".moduleOne.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

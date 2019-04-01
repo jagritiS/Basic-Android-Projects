@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="margin_wide">24dp</dimen>
+    <dimen name="margin_regular">8dp</dimen>
+    <dimen name="text_heading">18sp</dimen>
+</resources>
