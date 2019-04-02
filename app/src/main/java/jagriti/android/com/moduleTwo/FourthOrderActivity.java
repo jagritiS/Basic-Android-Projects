@@ -9,6 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import jagriti.android.com.R;
+import jagriti.android.com.moduleFive.DatePickerActivity;
 import jagriti.android.com.moduleThree.FifthActivity;
 
 public class FourthOrderActivity extends AppCompatActivity {
@@ -54,8 +55,13 @@ public class FourthOrderActivity extends AppCompatActivity {
                 Toast.LENGTH_SHORT).show();
     }
 
-    public void fifthAct(View view) {
+    /*public void fifthAct(View view) {
         Intent intent = new Intent(this, FifthActivity.class);
+        startActivity(intent);
+    }*/
+
+    public void datesWork(View view) {
+        Intent intent = new Intent(this, DatePickerActivity.class);
         startActivity(intent);
     }
 }

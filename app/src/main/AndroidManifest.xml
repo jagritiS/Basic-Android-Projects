@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".moduleThree.FifthActivity"></activity>
-        <!-- shows arrow button to move backward -->
+        <activity android:name=".moduleFive.DatePickerActivity"></activity>
+        <activity android:name=".moduleThree.FifthActivity" /> <!-- shows arrow button to move backward -->
         <activity
             android:name=".moduleTwo.FourthOrderActivity"
             android:label="Order Place"
